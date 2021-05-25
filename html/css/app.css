@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, serif;
+    font-size: 14px;
+}
+
+.heroes {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.hero {
+    background: #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    width: 47.7%;
+    margin: 1%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hero h3,
+.hero .hero-image,
+.hero .hero-short-info {
+    padding: 0 20px;
+}
+
+.hero .hero-short-info {
+    text-align: left;
+}
+
+.update-heroes {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.button {
+    border: 1px solid #000;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    background: #cccccc;
+    text-align: center;
+}
+
+.update-heroes .update-heroes-list:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.thor:hover {
+    background: rgb(219, 223, 223);
+    background: radial-gradient(circle, rgba(219, 223, 223, 1) 27%, rgba(108, 190, 207, 1) 47%, rgba(36, 179, 221, 1) 68%);
+}
+
+.thor:hover .hero-name,
+.thor:hover .hero-short-info {
+    color: #FCFF93;
+}
+
+.widow:hover {
+    background: rgb(247, 245, 239);
+    background: radial-gradient(circle, rgba(247, 245, 239, 1) 10%, rgba(37, 14, 4, 1) 57%);
+}
+
+.widow:hover .hero-short-info,
+.widow:hover .hero-name {
+    color: #c3c3c3;
+}
+
+.captain:hover {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.captain:hover .hero-short-info,
+.captain:hover .hero-name {
+    color: #a9cdff;
+}
+
+.superman:hover {
+    background: rgb(226, 34, 34);
+    background: radial-gradient(circle, rgba(226, 34, 34, 1) 47%, rgba(77, 168, 245, 1) 97%);
+}
+
+.superman:hover .hero-name,
+.superman:hover .hero-short-info,
+.superman:hover .hero-description {
+    color: #FCFF93;
+}
+
+.reset-heroes-list {
+    background: #ff232a;
+    color: #ffffff;
+    margin-left: 15px;
+}
+
+.random-hero {
+    background: #2bff71;
+    width: auto;
+}
+
+.hero-image {
+    height: 320px;
+    width: 240px;
+}
+
+.add-hero {
+    background: #daae51;
+    width: auto;
+}
+
+
+.add-hero-form {
+    width: 50%;
+    margin: 25px auto 0;
+
+}
+
+.add-hero-form input,
+.add-hero-form textarea {
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.add-hero-form .element-form {
+    margin-bottom: 25px;
+}
+
+.add-hero-form input {
+    height: 30px;
+}
+
+.add-hero-form textarea {
+    height: 200px
+}
+
+.error {
+    color: #ff4148;
+    font-size: 11px;
+}
+
+img {
+    image-rendering: -o-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+}
